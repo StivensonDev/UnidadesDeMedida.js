@@ -8,9 +8,10 @@ let peso = "108.6 kilos";
 console.log(parseFloat(peso));
 
 let alturaRedondeada = 193.51
-console.log(Math.round(alturaRedondeada));
+console.log(Math.ceil(alturaRedondeada));
 
 let pesoRedondeado = 108.6
 console.log(Math.floor(pesoRedondeado));
 
-let maxValor = 
+let numIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
+console.log(numIguales);
